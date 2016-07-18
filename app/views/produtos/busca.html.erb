@@ -1,0 +1,14 @@
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>Nome</th>     
+        <th>Descrição</th>
+        <th>Preco</th>
+        <th>Ações</th>
+      </tr>
+      <tbody>
+          <%= render @produtos %>
+      </tbody>
+    </thead>
+</table>
+<%= link_to "Voltar", root_path %>
